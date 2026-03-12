@@ -27,8 +27,6 @@ Our development roadmap followed exactly 8 structured phases:
 7. **Free API Integration:** Deprecated OpenAI in favor of Google's Gemini Models for a 100% free workflow.
 8. **Deployment Setup:** Generated `requirements.txt` and `.gitignore` and refactored keys to rely on `st.secrets` natively.
 
----
-
 
 ## 💻 Local Setup (If you want to run it on your own computer)
 
