@@ -29,37 +29,6 @@ Our development roadmap followed exactly 8 structured phases:
 
 ---
 
-## 🚀 Step-by-Step Deployment Guide (Streamlit Community Cloud)
-
-To make this project live on the internet so anyone can see your portfolio or use the platform:
-
-### Step 1: Push Your Code to GitHub (Already Done!)
-Your code currently lives in the `Shiivu13/AI_evaluation_platform` repository. Streamlit will read directly from this repository to build your website!
-
-### Step 2: Deploy on Streamlit Cloud
-1. Go to [share.streamlit.io](https://share.streamlit.io/) and create a free account (connect your GitHub account).
-2. Click the **Create app** button in the top right corner.
-3. Click **Yep, I have an app**, and then select **Deploy a public app from GitHub**.
-4. Fill in the form:
-   - **Repository:** `Shiivu13/AI_evaluation_platform`
-   - **Branch:** `main`
-   - **Main file path:** `app.py`
-5. Click **Deploy!** (Your app will now start booting up. You might see an error on the screen initially—that's normal! We need to give it the API Key).
-
-### Step 3: Add Your Free Gemini API Key
-To grade the tests, the app needs permission to use Google's Gemini models.
-1. Get your free API Key from [Google AI Studio](https://aistudio.google.com/app/apikey).
-2. Go back to your deployed Streamlit App. Look at the bottom right corner of the screen for a **three-dots menu icon `⋮`**. Click it and select **Settings**.
-3. Go to the **Secrets** tab on the left menu.
-4. Paste your key in TOML format exactly like this:
-   ```toml
-   GEMINI_API_KEY = "PASTE_YOUR_KEY_HERE"
-   ```
-5. Click **Save**.
-
-🎉 **Congratulations!** Your app will quickly restart and will now be live on the internet! 
-
----
 
 ## 💻 Local Setup (If you want to run it on your own computer)
 
