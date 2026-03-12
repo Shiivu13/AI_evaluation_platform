@@ -1,0 +1,17 @@
+# Environments
+venv/
+env/
+.env
+
+# SQLite Databases
+*.db
+eval_platform.db
+
+# Python caches
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# IDEs
+.vscode/
+.idea/
